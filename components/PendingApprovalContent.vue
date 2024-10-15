@@ -21,7 +21,7 @@
                 <span class="sr-only">Approve</span>
                 <CheckIcon class="h-3 w-3" />
               </button>
-              <button @click="declineItem(item.id)" class="p-2 rounded-full bg-red-100 text-red-600 hover:bg-red-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+              <button @click="declineItem(item.id)" class="p-2 rounded-md bg-red-100 text-red-600 hover:bg-red-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
                 <span class="sr-only">Decline</span>
                 <XMarkIcon class="h-3 w-3" />
               </button>

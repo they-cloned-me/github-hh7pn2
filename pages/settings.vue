@@ -40,7 +40,7 @@
         <!-- Email Display Section -->
         <div class="pb-8 border-b border-gray-200">
           <h2 class="text-xl font-semibold mb-6 text-gray-800">Email Address</h2>
-          <p class="text-gray-600 bg-gray-50 px-3 py-1.5 rounded-md border border-gray-200">{{ email }}</p>
+          <p class="text-gray-600 bg-gray-50 px-3 py-1.5 rounded-md border border-gray-200 cursor-not-allowed select-none">{{ email }}</p>
           <p class="text-sm text-gray-500 mt-2">Note: Email address cannot be changed.</p>
         </div>
 
